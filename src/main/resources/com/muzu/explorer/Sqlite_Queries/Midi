@@ -1,0 +1,5 @@
+SELECT MuzU_List.Id, MuzU_List.FileName
+FROM MuzU_List
+     LEFT JOIN FilePath ON MuzU_List.FilePathID = FilePath.ID
+WHERE Midi>0
+ORDER BY MuzU_List.ID;
