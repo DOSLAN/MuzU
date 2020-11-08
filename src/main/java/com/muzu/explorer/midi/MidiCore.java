@@ -1,4 +1,4 @@
-package com.muzu.explorer.Midi;
+package com.muzu.explorer.midi;
 
 import java.io.File;
 import java.util.ArrayList;

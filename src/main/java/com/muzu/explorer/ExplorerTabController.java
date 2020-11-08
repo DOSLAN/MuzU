@@ -1,9 +1,9 @@
 package com.muzu.explorer;
 
-import com.muzu.explorer.ExplorerTab.InfoPane;
-import com.muzu.explorer.ExplorerTab.MusicPlayer;
-import com.muzu.explorer.ExplorerTab.MusicList_Manager.MusicListManager;
-import com.muzu.explorer.MuzU.MuzU;
+import com.muzu.explorer.ui.explorer_tab.InfoPane;
+import com.muzu.explorer.ui.explorer_tab.MusicPlayer;
+import com.muzu.explorer.ui.explorer_tab.MusicList_Manager.MusicListManager;
+import com.muzu.explorer.model.MuzU;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

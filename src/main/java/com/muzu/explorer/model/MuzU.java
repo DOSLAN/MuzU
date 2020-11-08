@@ -1,6 +1,6 @@
-package com.muzu.explorer.MuzU;
+package com.muzu.explorer.model;
 
-import com.muzu.explorer.ExplorerTab.Database_Manager.DBReader;
+import com.muzu.explorer.ui.explorer_tab.Database_Manager.DBReader;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class MuzU {
         ResultSet rs = DBReader.getAll(id);
         this.id = rs.getInt("ID");
         file = new File(rs.getString("FilePath") + "/" + rs.getString("FileName"));
-        numberOfMidi = rs.getInt("Midi");
+        numberOfMidi = rs.getInt("midi");
         DBReader.closeDB();
 
         if (numberOfMidi!=0){
@@ -30,7 +30,7 @@ public class MuzU {
     }
 
     public File getMidi() {
-        return new File("src\\main\\resources\\com\\muzu\\explorer\\Midi Files\\"+
+        return new File("src\\main\\resources\\com\\muzu\\explorer\\midi Files\\"+
                 id+"."+this.file.getName()+"-"+numberOfMidi+".mid");
     }
 
@@ -42,11 +42,11 @@ public class MuzU {
         numberOfMidi++;
         DBReader.connectToDB();
         try{
-            File midiFile = new File("src\\main\\resources\\com\\muzu\\explorer\\Midi Files\\"+
+            File midiFile = new File("src\\main\\resources\\com\\muzu\\explorer\\midi Files\\"+
                     id+"."+this.file.getName()+"-"+numberOfMidi+".mid");
             FileUtils.copyFile(file, midiFile);
 
-            /** set Midi **/
+            /** set midi **/
             DBReader.statement.execute("UPDATE MuzU_List SET Midi="+numberOfMidi+" WHERE ID="+id);
         } catch (SQLException | IOException e) {
             e.printStackTrace();

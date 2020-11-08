@@ -20,7 +20,7 @@ public class App extends Application {
         stage.setMaximized(true);
         Parent root = loadFXML("main");
         stage.setScene(new Scene(root));
-        stage.setTitle("MuzU Explorer");
+        stage.setTitle("model Explorer");
         stage.show();
     }
 

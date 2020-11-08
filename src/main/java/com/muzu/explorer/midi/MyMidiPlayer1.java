@@ -1,4 +1,4 @@
-package com.muzu.explorer;
+package com.muzu.explorer.midi;
 
 // Java program showing how to change the instrument type
 import javax.sound.midi.*;

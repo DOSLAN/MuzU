@@ -41,7 +41,7 @@ public class WaveFormService extends Service<Boolean> {
 	private WaveFormJob waveFormJob;
 
 	/**
-	 * Wave Service type of Job ( not boob job ... )
+	 * Wave AudioService type of Job ( not boob job ... )
 	 *
 	 * @author GOXR3PLUSSTUDIO
 	 *
@@ -62,7 +62,7 @@ public class WaveFormService extends Service<Boolean> {
 	}
 
 	/**
-	 * Start the external Service Thread.
+	 * Start the external AudioService Thread.
 	 *
 	 *
 	 */

@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="793b0ec3-f154-4222-aedf-506d1fc8bd4b" name="Default Changelist" comment="" />
+    <list default="true" id="793b0ec3-f154-4222-aedf-506d1fc8bd4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTabController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTabController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/Midi/MidiCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MidiCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/Midi/MidiPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MidiPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/MuzU/MuzU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/model/MuzU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/MyMidiPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MyMidiPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/MyMidiPlayer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MyMidiPlayer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveFormService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveFormService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveVisualization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveVisualization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/explorer_tab/Database_Manager/DBReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/explorer_tab/InfoPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/explorer_tab/MusicList_Manager/MusicListManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/explorer_tab/MusicList_Manager/SqliteQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/explorer_tab/MusicPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/ExplorerTab/Database_Manager/DBReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/ExplorerTab/InfoPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/ExplorerTab/MusicList_Manager/MusicListManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/ExplorerTab/MusicList_Manager/SqliteQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/ExplorerTab/MusicPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/ExplorerTabController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/ExplorerTabController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiCore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiCore$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiCore$cycleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiCore$cycleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiCore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/Midi/MidiPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/MuzU/MuzU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/MyMidiPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/MyMidiPlayer1.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,12 +96,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="361">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,20 +109,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicAudioService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="38">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="38">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MidiAudioService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -88,8 +141,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,6 +153,9 @@
       <find>togg</find>
       <find>ge</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,6 +202,12 @@
         <option value="$PROJECT_DIR$/target/classes/com/muzu/explorer/main.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/Model/MuzU.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/model/MuzU.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayerPane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MidiService.java" />
       </list>
     </option>
   </component>
@@ -200,15 +263,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="946" />
-    <option name="width" value="982" />
-    <option name="height" value="1095" />
+    <option name="x" value="941" />
+    <option name="width" value="987" />
+    <option name="height" value="1099" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +317,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="explorer" type="462c0819:PsiDirectoryNode" />
-              <item name="ExplorerTab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MuzU_Explorer" type="b2602c69:ProjectViewProjectNode" />
@@ -258,8 +326,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="explorer" type="462c0819:PsiDirectoryNode" />
-              <item name="ExplorerTab" type="462c0819:PsiDirectoryNode" />
-              <item name="MusicList_Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MuzU_Explorer" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +335,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="explorer" type="462c0819:PsiDirectoryNode" />
-              <item name="WaveSpectrum" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer_tab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MuzU_Explorer" type="b2602c69:ProjectViewProjectNode" />
@@ -298,15 +366,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599580716346" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604833684167" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;RELAX-NG" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jmg-master/jmg-master" />
@@ -350,13 +416,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.muzu.explorer.App" />
       <module name="MuzU_Explorer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.muzu.explorer.*" />
+          <option name="PATTERN" value="com.muzu.explorer.midi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,11 +444,11 @@
       </method>
     </configuration>
     <configuration name="MidiPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.muzu.explorer.Midi.MidiPlayer" />
+      <option name="MAIN_CLASS_NAME" value="com.muzu.explorer.midi.MidiPlayer" />
       <module name="MuzU_Explorer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.muzu.explorer.Midi.*" />
+          <option name="PATTERN" value="com.muzu.explorer.midi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,11 +457,11 @@
       </method>
     </configuration>
     <configuration name="MyMidiPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.muzu.explorer.MyMidiPlayer" />
+      <option name="MAIN_CLASS_NAME" value="com.muzu.explorer.midi.MyMidiPlayer" />
       <module name="MuzU_Explorer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.muzu.explorer.*" />
+          <option name="PATTERN" value="com.muzu.explorer.midi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,11 +470,11 @@
       </method>
     </configuration>
     <configuration name="MyMidiPlayer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.muzu.explorer.MyMidiPlayer1" />
+      <option name="MAIN_CLASS_NAME" value="com.muzu.explorer.midi.MyMidiPlayer1" />
       <module name="MuzU_Explorer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.muzu.explorer.*" />
+          <option name="PATTERN" value="com.muzu.explorer.midi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,8 +484,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyMidiPlayer1" />
         <item itemvalue="Application.MyMidiPlayer" />
         <item itemvalue="Application.MidiPlayer" />
@@ -469,11 +535,16 @@
       <workItem from="1598689689211" duration="7610000" />
       <workItem from="1599573156630" duration="5396000" />
       <workItem from="1600069554928" duration="30000" />
+      <workItem from="1601726718801" duration="493000" />
+      <workItem from="1601727332731" duration="698000" />
+      <workItem from="1602658242463" duration="384000" />
+      <workItem from="1602687168636" duration="648000" />
+      <workItem from="1604831634864" duration="1940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148917000" />
+    <option name="totallyTimeSpent" value="153080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="958" extended-state="6" />
@@ -484,19 +555,19 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17925107" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19152854" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.33048782" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32841823" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.34671533" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32804877" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.34634146" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3272506" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32682925" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.328877" />
@@ -604,7 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/MusicList_Manager/SqliteQuery.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicList_Manager/SqliteQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
@@ -623,7 +694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/Database_Manager/DBReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/Database_Manager/DBReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
@@ -648,24 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/Midi/MidiCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#925#931#0" expanded="true" />
-            <element signature="e#974#982#0" expanded="true" />
-            <element signature="e#1027#1037#0" expanded="true" />
-            <element signature="e#3229#3230#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#4302#4303#0" expanded="true" />
-            <element signature="e#4337#4338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/Midi/MidiPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MidiPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3499">
           <caret line="329" column="32" selection-start-line="329" selection-start-column="20" selection-end-line="329" selection-end-column="32" />
@@ -675,37 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/MyMidiPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/MyMidiPlayer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/MusicPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2480">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/InfoPane.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/InfoPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
@@ -731,31 +755,6 @@
           <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/MuzU/MuzU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/MidiEditorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/muzu/explorer/MidiEditor.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="168" selection-start-line="7" selection-start-column="168" selection-end-line="7" selection-end-column="168" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/ResizableCanvas.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -818,12 +817,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/muzu/explorer/explorer.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2449">
           <caret line="25" column="170" selection-start-line="25" selection-start-column="170" selection-end-line="25" selection-end-column="170" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/reflect/UnsafeFieldAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -843,14 +842,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/muzu/explorer/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/MusicList_Manager/MusicListManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicList_Manager/MusicListManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
@@ -861,20 +860,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/muzu/explorer/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="171">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MidiCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/MidiEditorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/muzu/explorer/MidiEditor.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -885,10 +916,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/model/MuzU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MyMidiPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MyMidiPlayer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicAudioService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MidiAudioService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package com.muzu.explorer.Midi;
+package com.muzu.explorer.midi;
 
 import java.awt.EventQueue;
 import java.awt.Toolkit;
@@ -38,7 +38,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-import com.muzu.explorer.Midi.MidiCore.cycleType;
+import com.muzu.explorer.midi.MidiCore.cycleType;
 
 public class MidiPlayer extends JFrame {
 

@@ -1,4 +1,4 @@
-package com.muzu.explorer;
+package com.muzu.explorer.midi;
 
 // Java program showing the implementation of a simple record
 import javax.sound.midi.*;
