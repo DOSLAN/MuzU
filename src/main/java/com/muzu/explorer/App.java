@@ -1,5 +1,6 @@
 package com.muzu.explorer;
 
+import com.muzu.explorer.service.AudioService;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,6 +15,7 @@ import java.io.IOException;
 public class App extends Application {
 
     private static Scene scene;
+    public static AudioService audioService = new AudioService();
 
     @Override
     public void start(Stage stage) throws IOException {

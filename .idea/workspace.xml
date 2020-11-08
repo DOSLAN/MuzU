@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="793b0ec3-f154-4222-aedf-506d1fc8bd4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/Database_Manager/DBReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/InfoPane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/MusicList_Manager/MusicListManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/MusicList_Manager/SqliteQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/MusicPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveFormService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveFormService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveVisualization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/WaveSpectrum/WaveVisualization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/muzu/explorer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/muzu/explorer/App.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +61,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="53" column="29" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="29" />
+            <state relative-caret-position="307">
+              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3789#3816#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,50 +86,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="199">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1269#1270#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
-                <element signature="e#1910#1911#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
+                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="e#1804#1805#0" expanded="true" />
+                <element signature="e#1937#1938#0" expanded="true" />
+                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
+                <element signature="e#2312#2313#0" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#2532#2533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+            <state relative-caret-position="256">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#473#474#0" expanded="true" />
@@ -144,10 +130,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MidiService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -203,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/MidiPlayer1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/GeneralTab/MusicPlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/InfoPane.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ExplorerTab/ExplorerTabController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/muzu/explorer/explorer.fxml" />
@@ -221,11 +218,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/Model/MuzU.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/model/MuzU.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayerPane.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MidiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicService.java" />
       </list>
     </option>
   </component>
@@ -390,7 +388,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604837471151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604847428090" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;RELAX-NG" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jmg-master/jmg-master" />
@@ -557,7 +555,7 @@
       <workItem from="1601727332731" duration="698000" />
       <workItem from="1602658242463" duration="384000" />
       <workItem from="1602687168636" duration="648000" />
-      <workItem from="1604831634864" duration="6636000" />
+      <workItem from="1604831634864" duration="9886000" />
     </task>
     <task id="LOCAL-00001" summary="Correct project structure">
       <created>1604833886403</created>
@@ -566,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604833886403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implement services">
+      <created>1604839318193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604839318194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157776000" />
+    <option name="totallyTimeSpent" value="161026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="958" extended-state="6" />
@@ -590,8 +595,8 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32804877" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.34634146" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.3994638" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.34634146" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3987805" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32682925" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -645,7 +650,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correct project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct project structure" />
+    <MESSAGE value="implement services" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement services" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/13/javafx-base-13-win.jar!/javafx/util/Callback.class">
@@ -897,16 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/midi/MidiCore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2299">
@@ -979,24 +975,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MidiService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="29" />
+        <state relative-caret-position="125">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="323">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1005,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/AudioService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+        <state relative-caret-position="256">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
@@ -1017,40 +1013,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/ui/explorer_tab/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="307">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#3789#3816#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/muzu/explorer/service/MusicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2532#2533#0" expanded="true" />
           </folding>
         </state>
       </provider>

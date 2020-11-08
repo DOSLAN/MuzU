@@ -8,7 +8,7 @@ import java.io.File;
 
 public class AudioService implements Service{
     private MusicService musicService = new MusicService();
-    private MidiService midiService = new MidiService();
+    private MidiService midiService;// = new MidiService();
     private ServiceType currentServiceType = ServiceType.MUSIC;
 
     public AudioService() {
@@ -24,7 +24,12 @@ public class AudioService implements Service{
 
     @Override
     public void create(File file) {
-
+        if (currentServiceType == ServiceType.MUSIC){
+            musicService.create(file);
+        }
+        else{
+            midiService.create(file);
+        }
     }
 
     @Override
@@ -64,6 +69,36 @@ public class AudioService implements Service{
         }
         else{
             return midiService.getDuration();
+        }
+    }
+
+    @Override
+    public Duration getCurrentTime() {
+        if (currentServiceType == ServiceType.MUSIC){
+            return musicService.getCurrentTime();
+        }
+        else{
+            return midiService.getCurrentTime();
+        }
+    }
+
+    @Override
+    public void setOnReady(Runnable runnable) {
+        if (currentServiceType == ServiceType.MUSIC){
+            musicService.setOnReady(runnable);
+        }
+        else{
+            midiService.setOnReady(runnable);
+        }
+    }
+
+    @Override
+    public void setOnEndOfMedia(Runnable runnable) {
+        if (currentServiceType == ServiceType.MUSIC){
+            musicService.setOnEndOfMedia(runnable);
+        }
+        else{
+            midiService.setOnEndOfMedia(runnable);
         }
     }
 
