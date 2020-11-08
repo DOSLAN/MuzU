@@ -11,10 +11,10 @@ import javafx.beans.property.SimpleBooleanProperty;
  */
 public class WaveVisualization extends WaveFormPane {
 	
-	/*** This AudioService is constantly repainting the wave */
+	/*** This Service is constantly repainting the wave */
 	private final PaintService animationService;
 	
-	/*** This AudioService is creating the wave data for the painter */
+	/*** This Service is creating the wave data for the painter */
 	private final WaveFormService waveService;
 	
 	private boolean recalculateWaveData;
@@ -103,14 +103,14 @@ public class WaveVisualization extends WaveFormPane {
 	 * -----------------------------------------------------------------------
 	 * 
 	 * 
-	 * 							      Paint AudioService
+	 * 							      Paint Service
 	 * 
 	 * -----------------------------------------------------------------------
 	 * 
 	 * -----------------------------------------------------------------------
 	 */
 	/**
-	 * This AudioService is updating the visualizer.
+	 * This Service is updating the visualizer.
 	 *
 	 * @author GOXR3PLUS
 	 */
@@ -148,7 +148,7 @@ public class WaveVisualization extends WaveFormPane {
 			//If resulting wave is not calculated
 			if (getWaveService().getResultingWaveform() == null || recalculateWaveData) {
 				
-				//Start the AudioService
+				//Start the Service
 				getWaveService().startService(getWaveService().getFileAbsolutePath(), WaveFormJob.WAVEFORM);
 				recalculateWaveData = false;
 				
