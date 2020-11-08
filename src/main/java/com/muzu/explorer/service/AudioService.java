@@ -2,6 +2,7 @@ package com.muzu.explorer.service;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.ReadOnlyObjectProperty;
+import javafx.scene.media.MediaPlayer;
 import javafx.util.Duration;
 
 import java.io.File;
@@ -79,6 +80,16 @@ public class AudioService implements Service{
         }
         else{
             return midiService.getCurrentTime();
+        }
+    }
+
+    @Override
+    public MediaPlayer.Status getStatus() {
+        if (currentServiceType == ServiceType.MUSIC){
+            return musicService.getStatus();
+        }
+        else{
+            return midiService.getStatus();
         }
     }
 

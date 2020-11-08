@@ -6,10 +6,7 @@ import com.muzu.explorer.ui.explorer_tab.MusicList_Manager.MusicListManager;
 import com.muzu.explorer.model.MuzU;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.Menu;
-import javafx.scene.control.Slider;
+import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
@@ -32,13 +29,11 @@ public class ExplorerTabController {
     private Slider trackSeekSlider;
 
     @FXML
-    void trackPausePressed(ActionEvent event) {
-        musicPlayer.pausePressed();
-    }
+    private Button playBtn;
 
     @FXML
-    void trackPlayPressed(ActionEvent event) {
-        musicPlayer.playPressed();
+    void trackPlayPausePressed(ActionEvent event) {
+        musicPlayer.playPausePressed();
     }
 
     @FXML
@@ -93,7 +88,7 @@ public class ExplorerTabController {
         musicListManager = new MusicListManager(musicList);
         infoPane = new InfoPane(info);
 
-        musicPlayer = new MusicPlayer(trackName,trackImage,trackProgress,trackDuration,trackSeekSlider);
+        musicPlayer = new MusicPlayer(trackName,playBtn,trackImage,trackProgress,trackDuration,trackSeekSlider);
         infoPane.setMusicPlayer(musicPlayer);
         musicListManager.setQueryMenus(SelectMenu, SortMenu);
     }
