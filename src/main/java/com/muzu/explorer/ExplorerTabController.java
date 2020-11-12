@@ -8,6 +8,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.DragEvent;
 import javafx.scene.layout.AnchorPane;
 
 import java.sql.SQLException;
@@ -34,6 +35,11 @@ public class ExplorerTabController {
     @FXML
     void trackPlayPausePressed(ActionEvent event) {
         musicPlayer.playPausePressed();
+    }
+
+    @FXML
+    void onMouseDragReleased(DragEvent event){
+        musicPlayer.onMouseDragReleased();
     }
 
     @FXML

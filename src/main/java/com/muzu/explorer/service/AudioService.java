@@ -4,32 +4,33 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.ReadOnlyObjectProperty;
 import javafx.scene.media.MediaPlayer;
 import javafx.util.Duration;
+import org.apache.commons.io.FilenameUtils;
 
 import java.io.File;
 
 public class AudioService implements Service{
     private MusicService musicService = new MusicService();
-    private MidiService midiService;// = new MidiService();
+    private MidiService midiService = new MidiService();
     private ServiceType currentServiceType = ServiceType.MUSIC;
 
     public AudioService() {
     }
 
-    public void changeServiceToMusic(){
-        currentServiceType = ServiceType.MUSIC;
-    }
-
-    public void changeServiceToMidi(){
-        currentServiceType = ServiceType.MIDI;
-    }
-
     @Override
     public void create(File file) {
-        if (currentServiceType == ServiceType.MUSIC){
-            musicService.create(file);
-        }
-        else{
-            midiService.create(file);
+        switch (FilenameUtils.getExtension(file.getName())){
+            case "mp3":
+                currentServiceType = ServiceType.MUSIC;
+                musicService.create(file);
+                midiService.stop();
+                break;
+            case "mid":
+                currentServiceType = ServiceType.MIDI;
+                midiService.create(file);
+                musicService.stop();
+                break;
+            default:
+                System.out.println("File format does not much: --> " + FilenameUtils.getExtension(file.getName()));
         }
     }
 
